@@ -1,0 +1,29 @@
+Tipo de conta
+Aceitar só dois cc para conta corrente e cp para conta poupança
+
+metodo construtor()
+status = falso
+saldo = 0
+
+
+abrirConta()
+mudar status para verdadeiro
+ter que falar qual tipo de conta é
+cc ganha R$50
+cp ganha R$150
+
+fecharConta()
+saldo = 0
+não pode dever nem ter dinheiro
+mudar status para falso
+
+depositar()
+status tem que ser verdadeiro
+
+sacar()
+status tem que ser verdadeiro
+tem que ter saldo positivo
+
+pagarMensal()
+cc cobra R$12
+cp cobra R$20
