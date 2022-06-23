@@ -10,4 +10,17 @@ class Cachorro extends Lobo{
     public function emitirSom(){
         echo "<p>Au!Au!Au!</p>";
     }
+    function reagirFrase($frase){
+        
+    }    
+    function reagirHora($hora, $min){
+
+    }
+    function reagirDono($dono){
+
+    }
+    function reagirIdadePeso($idade, $peso){
+
+    }
+
 }

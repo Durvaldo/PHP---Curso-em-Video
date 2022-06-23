@@ -14,6 +14,7 @@
         require_once 'Peixe.php';
         require_once 'Ave.php';
         require_once 'Canguru.php';
+        require_once 'Lobo.php';
         require_once 'Cachorro.php';
         require_once 'Cobra.php';
         require_once 'Tartaruga.php';
@@ -27,6 +28,7 @@
         $c = new Canguru();
         $k = new Cachorro();
         $t = new Tartaruga();
+        $l = new Lobo();
 
         $m -> locomover();
         $r -> locomover();
@@ -35,7 +37,9 @@
 
         $c -> locomover();
         $k -> locomover();
+        $m -> emitirSom();
         $k -> emitirSom();
+        $l -> emitirSom();
         $t -> locomover();
 
         
